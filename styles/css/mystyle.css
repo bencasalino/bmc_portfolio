@@ -1,0 +1,15 @@
+body {
+  background-image: url("back.jpg");
+  
+  background-position: center;
+
+  color:white;
+  margin-top: 25%;
+  margin-bottom: 25%;
+  margin-left: 15%;
+  margin-right: 15%;
+}
+
+h1 {
+  color:green;
+}
