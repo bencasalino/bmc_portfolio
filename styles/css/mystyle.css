@@ -1,15 +1,47 @@
-body {
-  background-image: url("back.jpg");
-  
-  background-position: center;
+html {
+    background: url(http://i.imgur.com/6oqXuwz.jpg) no-repeat center center fixed;
+    background-size: cover;
+}
 
-  color:white;
-  margin-top: 25%;
-  margin-bottom: 25%;
+body {
+
+
+  margin-top: 18%;
+  margin-bottom: 15%;
   margin-left: 15%;
   margin-right: 15%;
 }
 
 h1 {
-  color:green;
+  color:black;
+}
+
+
+
+
+
+
+
+/* unvisited link */
+a:link {
+    color: black;
+    text-decoration: none;
+}
+
+/* visited link */
+a:visited {
+    color: darkgrey;
+    text-decoration: none;
+}
+
+/* mouse over link */
+a:hover {
+    color: dodgerblue;
+    text-decoration: none;
+}
+
+/* selected link */
+a:active {
+    color: black;
+    text-decoration: none; 
 }
