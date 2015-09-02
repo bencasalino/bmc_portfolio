@@ -1,10 +1,10 @@
 html, body {
-    position: fixed;
+
 }
 
 
-.container {
-  position: fixed;
+.container-fluid {
+
   overflow: hidden;
 /*
   width: 100%;
@@ -12,7 +12,7 @@ html, body {
 
 }
 
-.container img {
+.container-fluid img {
   position: fixed;
   top: 0;
   left: 0;
@@ -23,10 +23,10 @@ html, body {
 
 }
 
-.container ul img {
-  position: fixed;
+.container-fluid ul img {
+
   top: 0;
-  left: 1350px;
+  left: -2000px;
   z-index: -50;
   /*-webkit-transition: all 1s ease;
   -moz-transition: all 1s ease;
@@ -43,6 +43,8 @@ ul a:hover {
 ul a:hover + img {
   left: 0px;
   text-decoration: none;
+
+
 }
 
 
