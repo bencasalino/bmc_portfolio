@@ -57,6 +57,8 @@ a:visited {
 a:hover {
     color: dodgerblue;
     text-decoration: none;
+    background: url(http://i.imgur.com/0utluQc.jpg) no-repeat center center fixed;
+    background-size: cover;
 }
 
 /* selected link */
