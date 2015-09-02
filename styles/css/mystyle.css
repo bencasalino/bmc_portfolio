@@ -1,68 +1,52 @@
-html {
-    background: url(http://i.imgur.com/6oqXuwz.jpg) no-repeat center center fixed;
-    background-size: cover;
-}
-
-body {
-
-
-  margin-top: 18%;
-  margin-bottom: 15%;
-  margin-left: 15%;
-  margin-right: 15%;
-  font-family: 'Open Sans', sans-serif;
-}
-
-h1 {
-  color:black;
+html, body {
+    position: fixed;
 }
 
 
-
-
-@font-face {
-   font-family: myFirstFont;
-   src: url(sansation_bold.woff);
-   font-weight: bold;
-}
-
+.container {
+  position: fixed;
+  overflow: hidden;
+/*
+  width: 100%;
+  height: 100%;*/
 
 }
 
+.container img {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: -60;
+  
+    width: 100%;
+    height: 100%;
 
-@font-face {
-    font-family: myFirstFont;
-    src: url(sansation_bold.woff);
-    font-weight: bold;
+}
+
+.container li img {
+  position: fixed;
+  top: 0;
+  left: 1350px;
+  z-index: -50;
+  /*-webkit-transition: all 1s ease;
+  -moz-transition: all 1s ease;
+  -o-transition: all 1s ease;
+  -ms-transition: all 1s ease;
+  transition: all 1s ease;*/
+}
+
+li a:hover {
+  background: black;
+  text-decoration: none;
+}
+
+li a:hover + img {
+  left: 0px;
+  text-decoration: none;
 }
 
 
-
-
-
-
-/* unvisited link */
-a:link {
-    color: black;
-    text-decoration: none;
-}
-
-/* visited link */
-a:visited {
-    color: darkgrey;
-    text-decoration: none;
-}
-
-/* mouse over link */
-a:hover {
-    color: dodgerblue;
-    text-decoration: none;
-    background: url(http://i.imgur.com/0utluQc.jpg) no-repeat center center fixed;
-    background-size: cover;
-}
-
-/* selected link */
-a:active {
-    color: black;
+h2 {
+    color:black;
     text-decoration: none;
 }
