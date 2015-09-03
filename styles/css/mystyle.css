@@ -48,6 +48,14 @@ ul a:hover + img {
 }
 
 
+ul a:active + img {
+
+  text-decoration: none;
+
+
+}
+
+
 h2 {
     color:black;
     text-decoration: none;
