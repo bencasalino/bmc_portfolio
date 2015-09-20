@@ -1,18 +1,17 @@
 body {
-   background:url('work.jpeg') fixed center center;
+   background:url('images/work.jpeg') fixed center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
-  background-size: cover;*/
-padding-top: 70px;
+  background-size: cover;
+   height:690px;
 
 }
 
-div {
-/*position:static;*/
-margin-right: 100px;
-margin-left: 100px;
-margin-top: 200px;
-color:red;
 
+
+
+p {
+height: 500px;
+    color: red;
 }
