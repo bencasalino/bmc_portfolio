@@ -1,12 +1,12 @@
 /* ..................... bg image   ...................... */
 body {
-   background:url('images/back.jpeg') fixed center center;
-   -webkit-background-size: cover;
+   background:url('images/color.jpg') fixed center center;
+   /*-webkit-background-size: cover;
    -moz-background-size: cover;
    -o-background-size: cover;
-   background-size: cover;
-   /*height:690px;*/
-   z-index: -60;
+   background-size: cover;*/
+   height:690px;
+   /*z-index: -60;*/
 }
 
 .container-fluid{
