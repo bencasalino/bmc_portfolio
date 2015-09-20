@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="styles/css/landing.css">
+    <script src="js/jquery-1.11.3.js"></script>
+    <script src="js/scripts.js"></script>
+
+    <title> Ben of the Universe </title>
+  </head>
+      <body>
+      <center>
+        <div class ="spiral">
+            <a href="javascript:" id="bg-change">
+                  <!-- spiral svg file  -->
+                 <img src="spiral.svg">
+            </a>
+        </div>
+
+    <div class="row">
+        <div class="botu">
+                <h1> BEN OF THE UNIVERSE </h1>
+        </div>
+
+          <div class="container-fluid">
+              <center>
+              <div class="row">
+                  <div class="col-md-3 col-xs-3 box-1">
+                      <p>
+                          <a id="music">
+                          <a href="music.html"> MUSIC</a>
+                      </a>
+                      </p>
+                  </div>
+                  <div class ="col-md-3 col-xs-3 box-2">
+                        <p> <a href="google.com"> ART </a></p>
+                  </div>
+                  <div class ="col-md-3 col-xs-3 box-3">
+                       <p> <a href="google.com">DESIGN </a></p>
+                  </div>
+                  <div class ="col-md-3 col-xs-3 box-4">
+                       <p> <a href="google.com"> WEB </a></p>
+                  </div>
+              </div> <!-- row -->
+          </div> <!-- cont fluid -->
+<script>
+// changes background-image to color when spiral.svg is clicked
+$('#bg-change').on('click', function() {
+    $('body').css('background-image', 'url(color.jpg)');
+})
+</script>
+      </body>
+</html>

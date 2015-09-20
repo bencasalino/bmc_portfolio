@@ -1,0 +1,108 @@
+body {
+   background:url('back.jpeg') fixed center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+   /*height:690px;*/
+   z-index: -60;
+}
+
+.container-fluid{
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+p {
+    line-height: 2;
+    font-family: sans-serif;      /*no end curls */
+    font-style: normal;
+    font-weight: lighter;
+    font-size: 18px;
+    color: white;
+    letter-spacing: 2px;
+}
+
+h1 {
+    letter-spacing: 5px;
+    font-weight: lighter;
+    opacity: .99;
+}
+#music {
+    text-decoration: none;
+}
+
+.botu {
+    margin-top:-100px;
+}
+
+img {
+    max-width: 100px;
+    max-height: 100px;
+    opacity: .8;
+}
+
+.spiral {
+    width: 300px;
+    height: 300px;
+}
+
+.box-1>p {
+    text-align: center;
+    width: 150px;
+    height: 150px;
+    margin-top: 100px;
+    padding-top: 50px;
+    background-color: black;
+    opacity: .65;
+}
+
+.box-2>p {
+    text-align: center;
+    width: 150px;
+    height: 150px;
+    margin-top: 100px;
+    padding-top: 50px;
+    background-color: black;
+    opacity: .65;
+}
+
+.box-3>p {
+    text-align: center;
+    width: 150px;
+    height: 150px;
+    margin-top: 100px;
+    padding-top: 50px;
+    background-color: black;
+    opacity: .65;
+}
+
+.box-4>p {
+    text-align: center;
+    width: 150px;
+    height: 150px;
+    margin-top: 100px;
+    padding-top: 50px;
+    background-color: black;
+    opacity: .65;
+}
+
+/* unvisited link */
+a:link {
+    text-decoration:none;
+}
+
+/* visited link */
+a:visited {
+    text-decoration:none;
+}
+
+/* mouse over link */
+a:hover {
+    text-decoration:none;
+}
+
+/* selected link */
+a:active {
+    text-decoration:none;
+}
