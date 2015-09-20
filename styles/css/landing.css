@@ -1,3 +1,4 @@
+/* ..................... bg image   ...................... */
 body {
    background:url('back.jpeg') fixed center center;
   -webkit-background-size: cover;
@@ -28,14 +29,12 @@ h1 {
     font-weight: lighter;
     opacity: .99;
 }
-#music {
-    text-decoration: none;
-}
-
+/* .................top logo     ......................... */
 .botu {
     margin-top:-100px;
 }
 
+/* ................hoover js/jq    ....................... */
 img {
     max-width: 100px;
     max-height: 100px;
@@ -46,7 +45,7 @@ img {
     width: 300px;
     height: 300px;
 }
-
+/* ..................... box1-4 ......................... */
 .box-1>p {
     text-align: center;
     width: 150px;
@@ -86,7 +85,7 @@ img {
     background-color: black;
     opacity: .65;
 }
-
+/* ..................... links ........................... */
 /* unvisited link */
 a:link {
     text-decoration:none;

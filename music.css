@@ -1,0 +1,17 @@
+body {
+   background:url('work.jpeg') fixed center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;*/
+   height:690px;
+
+}
+
+
+
+
+p {
+height: 500px;
+    color: red;
+}
